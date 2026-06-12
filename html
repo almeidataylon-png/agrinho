@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Agrinho - Semeando Educação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>Projeto Agrinho</h1>
+            <p>Semeando educação, colhendo cidadania</p>
+        </div>
+    </header>
+
+    <nav id="nav-principal">
+        <a href="#sobre">Sobre o Projeto</a>
+        <a href="#temas">Temas Trabalhados</a>
+        <a href="#concurso">O Concurso</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main class="conteudo-principal">
+
+        <section id="sobre" class="secao-card">
+            <h2>O que é o Agrinho?</h2>
+            <p>O <strong>Agrinho</strong> é o maior programa de responsabilidade social do Sistema FAEP/SENAR-PR. Criado com o objetivo de incentivar a prática pedagógica por meio de projetos que integrem a realidade do campo e da cidade, o programa leva às escolas públicas e particulares informações sobre cidadania, saúde, segurança e preservação ambiental.</p>
+            <p>Há mais de duas décadas, ele atua como uma ferramenta de transformação, estimulando o pensamento crítico e a criatividade de alunos e professores.</p>
+        </section>
+
+        <section id="temas" class="secao-card">
+            <h2>Nossos Pilares Educacionais</h2>
+            <p>O programa trabalha de forma transversal, abordando assuntos essenciais para o desenvolvimento de cidadãos conscientes:</p>
+            
+            <div class="grid-pilares">
+                <div class="card-pilar" data-tema="meio-ambiente">
+                    <h3>Meio Ambiente</h3>
+                    <p>Foco na sustentabilidade, uso consciente da água, conservação do solo e proteção da biodiversidade.</p>
+                </div>
+                <div class="card-pilar" data-tema="cidadania">
+                    <h3>Cidadania & Ética</h3>
+                    <p>Estímulo aos deveres e direitos, respeito ao próximo, inclusão e a participação ativa na melhoria da comunidade.</p>
+                </div>
+                <div class="card-pilar" data-tema="saude">
+                    <h3>Saúde e Alimentação</h3>
+                    <p>Orientações sobre a importância de hábitos saudáveis, cultivo de hortas escolares e segurança no dia a dia.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="concurso" class="secao-card">
+            <h2>O Concurso Agrinho</h2>
+            <p>Todos os anos, o programa realiza o tradicional <strong>Concurso Agrinho</strong>, premiando os melhores trabalhos desenvolvidos ao longo do ano letivo. É o momento de celebrar o esforço e a dedicação das escolas.</p>
+            
+            <div class="interativo-concurso">
+                <p>Clique no botão abaixo para descobrir quem pode participar do concurso:</p>
+                <button id="btn-participantes">Quem pode participar?</button>
+                <div id="revelar-participantes" class="escondido">
+                    <ul>
+                        <li>Alunos da Educação Infantil</li>
+                        <li>Alunos do Ensino Fundamental (Anos Iniciais e Finais)</li>
+                        <li>Alunos do Ensino Médio e Ensino Técnico</li>
+                        <li>Professores (com Relatórios de Experiência Pedagógica)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="secao-card">
+            <h2>Fique por Dentro</h2>
+            <p>Quer receber novidades ou saber como levar o projeto para sua escola? Deixe seu e-mail abaixo:</p>
+            <form id="form-contato">
+                <input type="email" id="input-email" placeholder="Digite seu melhor e-mail" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+            <div id="mensagem-sucesso" class="escondido">Obrigado! Seu interesse foi registrado com sucesso. 🌱</div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Portal Agrinho Educacional. Criado para fins didáticos e informativos.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
